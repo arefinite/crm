@@ -33,7 +33,7 @@ export const SettingsPage = () => {
             >
                 <Logo width={96} height={96} />
                 <Text style={{ fontSize: "32px", fontWeight: 700 }}>
-                    Globex Corporation
+                    CRM APP
                 </Text>
             </Space>
             <Row
@@ -221,22 +221,22 @@ const UsersTable = () => {
 const companyInfo = [
     {
         label: "Address",
-        value: "2158 Mount Tabor, Westbury, New York, USA 11590",
+        value: "0000 Mount Everest, bury, California, USA 0000",
         icon: <EnvironmentOutlined className="tertiary" />,
     },
     {
         label: "Phone",
-        value: "+123 456 789 01 23",
+        value: "+123 000 000 00 00",
         icon: <PhoneOutlined className="tertiary" />,
     },
     {
         label: "Email",
-        value: "info@globexcorp.com",
+        value: "info@abc.com",
         icon: <MailOutlined className="tertiary" />,
     },
     {
         label: "Website",
-        value: "https://globexcorp.com",
+        value: "https://abc.com",
         icon: <GlobalOutlined className="tertiary" />,
     },
 ];

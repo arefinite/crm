@@ -370,7 +370,7 @@ const App: React.FC = () => {
                                 <UnsavedChangesNotifier />
                                 <DocumentTitleHandler />
                             </Refine>
-                            <DevtoolsPanel />
+                            {/* <DevtoolsPanel /> */}
                         </DevtoolsProvider>
                     </AntdApp>
                 </ConfigProvider>

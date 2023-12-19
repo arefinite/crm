@@ -111,7 +111,7 @@ export const resources: IResourceItem[] = [
         edit: "/contacts/edit/:id",
         show: "/contacts/show/:id",
         meta: {
-            label: "Contacts",
+            label: "Contacts & Agents",
             icon: <TeamOutlined />,
         },
     },
